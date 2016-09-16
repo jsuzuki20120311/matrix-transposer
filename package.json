@@ -1,5 +1,5 @@
 {
-  "name": "MatrixTransposer",
+  "name": "matrix-transposer",
   "version": "0.9.0",
   "description": "",
   "main": "./dist/index.js",
