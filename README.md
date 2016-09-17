@@ -10,6 +10,11 @@ Transpose 2D array.
 ## License
 MIT
 
+## install
+```sh
+$ npm install --save matrix-transposer
+```
+
 ## import
 ### Node.js
 ```javascript
