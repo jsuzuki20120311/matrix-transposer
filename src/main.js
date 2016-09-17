@@ -17,7 +17,7 @@ class MatrixTransposer {
    * 引数で与えられた二次元配列の行と列を入れ替えた配列を新たに生成し戻します。
    *
    * @param twoDimensionalArray {Array}
-   * ＠param option {Object}
+   * @param option {Object}
    * @returns {Array}
    */
   static arrayTranspose(twoDimensionalArray, option) {
@@ -32,11 +32,15 @@ class MatrixTransposer {
     ) {
       throw new Error(`Illegal argument. Second argument[referenceIndex] is not number.`);
     }
-    let targetIndex = option.referenceIndex || MatrixTransposer.DEFAULT_OPTION.referenceIndex;
+    let targetIndex;
+    if (option && option.referenceIndex) {
+      targetIndex = option.referenceIndex;
+    } else {
+      targetIndex = MatrixTransposer.DEFAULT_OPTION.referenceIndex;
+    }
     if (!Array.isArray(twoDimensionalArray[targetIndex])) {
       throw new Error(`Illegal argument. First Argument[${targetIndex}] is not Array.`);
     }
-
     return twoDimensionalArray[targetIndex].map((value, columnIndex) => {
       return twoDimensionalArray.map((row, rowIndex) => {
         if (!Array.isArray(row)) {
