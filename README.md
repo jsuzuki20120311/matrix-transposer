@@ -13,7 +13,7 @@ MIT
 ## import
 ### Node.js
 ```javascript
-var MatrixTransposer = require('matrix-transposer').default
+var MatrixTransposer = require('matrix-transposer').default;
 ```
 ### EcmaScript2015
 ```javascript
