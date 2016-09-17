@@ -1,7 +1,11 @@
 # matrix-transposer
 
+[![](https://travis-ci.org/jsuzuki20120311/matrix-transposer.svg?branch=master)](https://travis-ci.org/jsuzuki20120311/matrix-transposer.svg?branch=master) [![Code Climate](https://codeclimate.com/github/jsuzuki20120311/matrix-transposer/badges/gpa.svg)](https://codeclimate.com/github/jsuzuki20120311/matrix-transposer)
+
+
 ## Abstract
 Transpose 2D array.
+
 
 ## License
 MIT
@@ -16,9 +20,9 @@ var MatrixTransposer = require('matrix-transposer').default
 import MatrixTransposer from 'matrix-transposer';
 ```
 
-## Example
+## How to use
 
-### 1
+### Example 1
 
 ```javascript
 
@@ -37,7 +41,7 @@ var result = MatrixTransposer.arrayTranspose(array);
 
 ```
 
-### 2
+### Example 2
 
 ```javascript
 
