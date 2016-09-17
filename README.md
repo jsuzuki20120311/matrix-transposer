@@ -3,6 +3,9 @@
 ## Abstract
 Transpose 2D array.
 
+## License
+MIT
+
 ## import
 ### Node.js
 ```javascript
