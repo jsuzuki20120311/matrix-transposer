@@ -1,7 +1,17 @@
 # matrix-transposer
 
 ## Abstract
-二次元配列の行と列を入れ替えた配列を新たに生成します。
+Transpose 2D array.
+
+## import
+### Node.js
+```javascript
+var MatrixTransposer = require('matrix-transposer').default
+```
+### EcmaScript2015
+```javascript
+import MatrixTransposer from 'matrix-transposer';
+```
 
 ## Example
 
