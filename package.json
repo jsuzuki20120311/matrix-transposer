@@ -8,7 +8,7 @@
     "watch": "babel ./src --out-dir ./dist --watch --source-maps-inline",
     "test": "mocha ./test/index.js"
   },
-  "keywords": [],
+  "keywords": ["array", "matrix", "transpose"],
   "author": "jBellTree",
   "license": "MIT",
   "dependencies": {},
