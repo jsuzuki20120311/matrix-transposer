@@ -1,6 +1,6 @@
 {
   "name": "matrix-transposer",
-  "version": "0.9.0",
+  "version": "0.10.0",
   "description": "Transpose 2D array.",
   "main": "./dist/main.js",
   "scripts": {
@@ -8,7 +8,11 @@
     "watch": "babel ./src --out-dir ./dist --watch --source-maps-inline",
     "test": "mocha ./test/index.js"
   },
-  "keywords": ["array", "matrix", "transpose"],
+  "keywords": [
+    "array",
+    "matrix",
+    "transpose"
+  ],
   "author": "jBellTree",
   "license": "MIT",
   "dependencies": {},
