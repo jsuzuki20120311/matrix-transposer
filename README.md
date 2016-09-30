@@ -68,5 +68,25 @@ var result = MatrixTransposer.arrayTranspose(array, option);
 //   [0, 5],
 //   [0, 6]
 // ]
+```
+
+```javascript
+
+var array = [
+  [1],
+  [4, 5, 6]
+];
+
+// option
+var option = {
+  referenceIndex: 0, // default: 0 
+  defaultValue: 0 // default: null
+};
+
+var result = MatrixTransposer.arrayTranspose(array, option);
+// result
+// [
+//   [1, 4]
+// ]
 
 ```

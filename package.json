@@ -1,6 +1,6 @@
 {
   "name": "matrix-transposer",
-  "version": "0.10.0",
+  "version": "0.10.1",
   "description": "Transpose 2D array.",
   "main": "./dist/main.js",
   "scripts": {

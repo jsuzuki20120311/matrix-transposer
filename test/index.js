@@ -162,4 +162,21 @@ describe('test', function () {
     },Error);
   });
 
+  it('test11', function () {
+    var array = [
+      [1],
+      [4, 5, 6]
+    ];
+    var option = {
+      referenceIndex: 0,
+      defaultValue: 0
+    };
+    assert.deepEqual(
+      MatrixTransposer.arrayTranspose(array, option),
+      [
+        [1, 4]
+      ]
+    );
+  });
+
 });
